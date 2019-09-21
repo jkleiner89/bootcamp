@@ -24,14 +24,20 @@
   clear:both;
 }
 
+.footer-blurb {
+  font-family: 'sinkin_sans300_light_italic', sans-serif;
+  text-align: right;
+  font-size: 12px;
+}
+
 h1 {
-  font-family: 'sinkin_sans400_regular', sans-serif;
-  font-weight: bold;
+  font-family: 'sinkin_sans500_medium', sans-serif;
   font-size: 48px;
+  font-weight: bold;
 }
 
 h2 {
-  font-family: 'sinkin_sans100_thin', sans-serif;
+  font-family: 'sinkin_sans500_medium', sans-serif;
 }
 
 header {
@@ -50,7 +56,13 @@ hr {
   color:black;
   font-size: 20px;
   border-bottom: 1px solid #dfdfdf;
-  font-family: 'sinkin_sans400_regular', sans-serif;
+  font-family: 'sinkin_sans500_medium', sans-serif;
+}
+
+.next-quote {
+  color:#f84342;
+  font-family: 'sinkin_sans500_medium', sans-serif;
+  font-size: 18px;
 }
 
 .slogan {
