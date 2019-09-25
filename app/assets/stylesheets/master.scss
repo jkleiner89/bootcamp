@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+.about {
+  font-family: 'sinkin_sans500_medium', sans-serif;
+}
+
 .circle {
     font-weight: bold;
     font-style: italic;
@@ -48,6 +52,10 @@ hr {
   clear:both;
 }
 
+.img-fluid {
+  border-radius: 20%;
+}
+
 .links {
   padding-top: 26px;
 }
@@ -70,7 +78,7 @@ hr {
 }
 
 .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style: italic;
+  font-family: 'sinkin_sans300_light_italic', sans-serif;
+  font-size: 14px;
   padding-top: 26px;
 }
