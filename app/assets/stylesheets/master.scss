@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+::selection {
+  background-color: #f84342;
+}
+
 .about {
   font-family: 'sinkin_sans500_medium', sans-serif;
 }
@@ -34,6 +38,12 @@
   font-size: 12px;
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
 h1 {
   font-family: 'sinkin_sans500_medium', sans-serif;
   font-size: 38px;
@@ -42,6 +52,11 @@ h1 {
 
 h2 {
   font-family: 'sinkin_sans500_medium', sans-serif;
+}
+
+h2 span {
+  font-family: 'sinkin_sans500_medium', sans-serif;
+  color: #dddddd;
 }
 
 header {
@@ -69,6 +84,10 @@ hr {
 
 .logo:hover {
   text-decoration: none;
+}
+
+.modal {
+  font-family: 'sinkin_sans300_light_italic', sans-serif;
 }
 
 .next-quote {
